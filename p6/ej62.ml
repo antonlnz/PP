@@ -1,6 +1,6 @@
 let curry f x y = f (x, y)
 
-let uncurry f (a, b) = f a b
+let uncurry f (a, b) = f a b;;
 
 (* Comprobacion de frases *)
 uncurry (+);;
@@ -12,7 +12,7 @@ let sum = (uncurry (+));;
 (* Define una funcion que es la funcion suma descurrificada, que recibe un par de numeros y los suma *)
 (* Correccion: Correcto *)
 
-sum 1;;
+sum (1, 2);;
 (* Da error porque no es un par (Consecuencia de la definicion anterior) *)
 (* Correccion: Correcto *)
 
@@ -24,7 +24,7 @@ let g = curry (function p -> 2 * fst p + 3 * snd p);;
 (* Correccion: Incorrecto, define una funcion g : int -> int -> int que 
 asigna a cada p 2 * fst p + 3 * snd p *)
 
-g (2,5);;
+g 7;;
 (* Da error, porque es un par y la funcion g espera un unico numero *)
 (* Correccion: Correcto *)
 

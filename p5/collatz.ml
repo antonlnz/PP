@@ -31,7 +31,7 @@ let rec longest_in m n =
 		then (m, length m)
 	else let (maxRest,maxLength) = longest_in (m+1) n in
 		let mLength = length m in
-		if ( mLength >= maxLength )
+		if (mLength >= maxLength)
 			then (m, mLength)
 		else (maxRest, maxLength);;
 
@@ -40,6 +40,6 @@ let rec highest_in m n =
 		then (m, top m)
 	else let (maxRest,maxTop) = highest_in (m+1) n in
 		let mTop = top m in
-		if ( mTop >= maxTop )
+		if (mTop >= maxTop)
 			then (m, mTop)
 		else (maxRest, maxTop);;
