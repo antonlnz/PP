@@ -19,6 +19,7 @@ sum (1, 2);;
 sum (2,1);;
 (* Devuelve 3 *)
 (* Correccion: Correcto *)
+
 let g = curry (function p -> 2 * fst p + 3 * snd p);;
 (* Define una funcion g que dado un numero, devuelve un par al que le aplica la expresion que sucede a la flecha*)
 (* Correccion: Incorrecto, define una funcion g : int -> int -> int que 
@@ -31,6 +32,7 @@ g 7;;
 let h = g 2;;
 (* Define una funcion que consiste en aplicarle el resultado de g 2 al valor dado *)
 (* Correccion: Correcto, define una funcion de int -> int *)
+
 h 1, h 2, h 3;;
 (* Da error *)
 (* Correccion: Incorrecto, devuelve una tupla de 3 elementos, que corresponden con el resultado de aplicar h a los tres valores dados *)
