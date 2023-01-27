@@ -7,11 +7,16 @@
 - Práctica 4: 10
 - Práctica 5: 10
 - Práctica 6: 10
-- Ejercicio 62: 10
+- Ejercicio 6.2: 10
 - Práctica 7: 9
 - Práctica 8: 9
-- Ejercicio 82: 10
-- Práctica 9: 
-- Práctica 10: 
-- Práctica 11: 
-- Práctica 12: 
+- Ejercicio 8.2: 10
+- Práctica 9: 10
+- Ejercicio 9.4: 7
+- Práctica 10: 10
+- Ejercicio 10.2: 8
+- Práctica 11: 7
+- Ejercicio 11.3: 10
+- Ejercicio 11.4: 10
+- Práctica 12: 10
+Total Practicas: 2/2
