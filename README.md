@@ -18,5 +18,5 @@
 - Práctica 11: 7
 - Ejercicio 11.3: 10
 - Ejercicio 11.4: 10
-- Práctica 12: 10
+- Práctica 12: 10  
 Total Practicas: 2/2
